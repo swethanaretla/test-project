@@ -1,1 +1,1 @@
-web: gunicorn test_project.wsgi
+web: gunicorn --env DJANGO_SETTINGS_MODULE=test_project.settings test_project.wsgi

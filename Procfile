@@ -1,1 +1,1 @@
-web: cd test_project gunicorn test_project.wsgi --log-file -
+web: cd test gunicorn test_project.wsgi --log-file -

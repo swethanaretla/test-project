@@ -1,7 +1,7 @@
 {
     "name": "TEST",
     "description": "Self-hosted TEST app",
-    "repository": "https://github.com/swethanaretla/test-project",
+    "repository": "https://github.com/swethanaretla/test-project/test_project",
     "scripts": {
     "postdeploy": "python manage.py makemigrations && python manage.py migrate"
   }

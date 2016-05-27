@@ -2,7 +2,6 @@
     "name": "TEST",
     "description": "Self-hosted TEST app",
     "repository": "https://github.com/swethanaretla/test-project",
-    "requirements": "sh -c 'cd test1/test_prjct1 && pip install -r requirements.txt'",
     "scripts": {
     "postdeploy": "python test1/test_prjct1/manage.py makemigrations && python test1/test_prjct1/manage.py migrate"
   }

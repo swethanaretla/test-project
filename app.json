@@ -3,6 +3,6 @@
     "description": "Self-hosted TEST app",
     "repository": "https://github.com/swethanaretla/test-project",
     "scripts": {
-    "postdeploy": "python test1/manage.py makemigrations && python test1/manage.py migrate"
+    "postdeploy": "python test1//test_prjct1/manage.py makemigrations && python test1//test_prjct1/manage.py migrate"
   }
 }

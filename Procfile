@@ -1,1 +1,1 @@
-web: sh -c 'cd test1/test_prjct1 && gunicorn test_prjct1.wsgi'
+web: sh -c 'cd test1/test_prjct1 && gunicorn test_prjct1.wsgi && pip install -r requirements.txt'
